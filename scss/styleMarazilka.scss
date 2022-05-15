@@ -1,0 +1,157 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    margin: 0px;
+
+   
+   
+}
+
+.headermain {
+    
+    background-color: rgba(0, 0, 0, 0.904);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    ul {
+        margin: 0px;
+        padding: 5px;
+        li {
+            padding: 5px;
+            margin: 0px;
+            :hover {
+                color: blue;
+                transition: 1.2s;
+                }}
+    }
+    .Zag1 { color: blue;
+margin-right: 90px;
+    }
+
+}
+.leibl {:hover {
+    transform: rotate(2deg);scale: 3;
+    color: blue;
+    transition: 1.2s;
+    }
+
+}
+a {
+    text-decoration: none;
+    color: deepskyblue;
+   
+}
+.ZILKA {
+    color: deepskyblue;
+    font-weight: 600;
+}
+
+.main {
+    background: rgba(0, 0, 0, 0.904);
+    color: whitesmoke;
+    font-weight: 500;
+    max-width: 980px;
+    margin: 0px;
+    
+    padding: 15px;
+   flex-grow: 1;
+    line-height: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.904);
+    color: white;
+    padding: 20px;
+}
+
+p {
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+    
+}
+
+.flexmain {
+    display: flex;
+    flex-direction: row;
+
+    
+    
+    .leftflex { background-image: url(../imgproekt/562755_main.jpg);
+        
+flex-grow: 1;
+width: 300px;
+    }
+    .rightflex {
+        background-image: url(../imgproekt/christmas-3778207_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-grow: 1;
+        width: 300px;
+    }
+}
+h2 {
+    color: deepskyblue;
+   
+}
+h2:hover {
+    color: blue;
+    transition: 1.2s;}
+
+@media all and (max-width: 1900px)
+{
+    .main {
+        background: rgba(0, 0, 0, 0.904);
+        color: whitesmoke;
+        font-weight: 500;
+        max-width: 1417px;
+        margin: 0px;
+        
+        padding: 15px 19px;
+       
+        line-height: 30px;
+}
+  
+}
+@media all and (max-width: 1600px)
+{
+    .main {
+        background: rgba(0, 0, 0, 0.904);
+        color: whitesmoke;
+        font-weight: 500;
+        max-width: 1245px;
+        margin: 0px;
+        padding: 15px 19px;
+       
+        line-height: 30px;
+}
+}
+@media all and (max-width: 1400px)
+{
+    .main {
+        background: rgba(0, 0, 0, 0.904);
+        color: whitesmoke;
+        font-weight: 500;
+        max-width: 1101px;
+        margin: 0px;
+        
+        padding: 15px 19px;
+       
+        line-height: 30px;
+}
+}
+
+
+
+
+@media all and (max-width: 630px) {
+    .gif {
+        width: 400px;
+    }
+}
+@media all and (max-width: 550px) {
+    .gif {
+        width: 300px;
+    }
+}

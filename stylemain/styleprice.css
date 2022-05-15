@@ -1,0 +1,149 @@
+table {
+  border: none;
+  width: 750px;
+  background-color: black;
+  margin: 0px;
+  padding: 30px;
+}
+table td {
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px 0 10px 0;
+  color: whitesmoke;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin: 0px;
+}
+
+.header1 {
+  background-color: black;
+  color: deepskyblue;
+  padding: 10px 0 10px 20px;
+  margin: 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8fr);
+  grid-template-rows: repeat(8fr);
+  gap: 10px;
+  align-items: center;
+  background-image: url(../imgproekt/562755_main.jpg);
+  padding: 0px 10px 10px 10px;
+}
+.grid .astra {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  grid-row: 1/1;
+  grid-column: 1/1;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.grid .dtp {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  grid-row: 3/3;
+  grid-column: 1/1;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.grid .varka {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  grid-row: 1/1;
+  grid-column: 2/2;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.grid .laguna {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  grid-row: 3/3;
+  grid-column: 2/2;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+img {
+  max-width: 350px;
+}
+
+.fonTable {
+  background-image: url(../imgproekt/562755_main.jpg);
+  padding: 30px;
+}
+
+@media all and (max-width: 1900px) {
+  .fonTable {
+    background-image: url(../imgproekt/562755_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+  }
+
+  table {
+    border: none;
+    max-width: 850px;
+    background-color: black;
+    margin: 0px;
+    padding: 30px;
+  }
+  table td {
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    color: whitesmoke;
+  }
+}
+@media all and (max-width: 830px) {
+  table {
+    border: none;
+    max-width: 590px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-image: url(../imgproekt/562755_main.jpg);
+    padding: 0px 30px 30px 30px;
+  }
+}
+@media all and (max-width: 660px) {
+  table {
+    border: none;
+    max-width: 450px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-image: url(../imgproekt/562755_main.jpg);
+    padding: 0px 30px 30px 30px;
+  }
+}
+
+/*# sourceMappingURL=styleprice.css.map */
