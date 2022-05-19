@@ -140,8 +140,10 @@ img {
   .grid {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items: center;
     background-image: url(../images/562755_main.jpg);
+    background-repeat: repeat;
     padding: 0px 30px 30px 30px;
   }
 }
@@ -157,8 +159,10 @@ img {
   .grid {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
+    justify-content: space-around;
+    align-items: center;
     background-image: url(../images/562755_main.jpg);
+    background-repeat: repeat;
     padding: 0px 30px 30px 30px;
   }
 }
