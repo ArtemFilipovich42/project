@@ -133,6 +133,26 @@ h2:hover {
   .gif {
     width: 300px;
   }
+
+  .headermain {
+    background-color: rgba(0, 0, 0, 0.904);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .headermain ul {
+    margin: 0px;
+    padding: 5px;
+  }
+  .headermain ul li {
+    padding: 5px;
+    margin: 0px;
+  }
+  .headermain ul li:hover {
+    color: blue;
+    transition: 1.2s;
+  }
 }
 
 /*# sourceMappingURL=styleMarazilka.css.map */

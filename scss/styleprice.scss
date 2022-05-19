@@ -157,3 +157,21 @@ img {
             padding: 0px 30px 30px 30px;
 }
 }
+@media all and (max-width: 560px) {
+    table {
+        border: none;
+        max-width: 350px;
+        background-color: black;
+        margin: 0 auto;
+        padding: 5px;
+        }
+
+        .grid {
+            display: flex;
+            flex-direction: column;
+            
+            align-items: stretch;
+            background-image: url(../images/562755_main.jpg);
+            padding: 0px 30px 30px 30px;
+}
+}
