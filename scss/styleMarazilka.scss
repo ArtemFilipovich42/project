@@ -48,9 +48,14 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration-line: none;
     color: deepskyblue;
 
+}
+
+.gif {
+    text-align: center;
+    margin: 10px 0;
 }
 
 .ZILKA {
@@ -65,20 +70,22 @@ a {
     max-width: 980px;
     margin: 0px;
 
-    padding: 15px;
+    padding: 25px;
     flex-grow: 1;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.904);
     color: white;
     padding: 20px;
+    text-align: center;
 }
 
 p {
     box-sizing: border-box;
-    margin: 0 0 10px 0;
+    margin: 0 0 15px 0;
+    text-align: center;
 
 }
 
@@ -106,12 +113,31 @@ p {
 
 h2 {
     color: deepskyblue;
-&:hover {
-    color: blue;
-    transition: 1.2s;
-}
+    text-align: center;
+
+    &:hover {
+        color: blue;
+        transition: 1.2s;
+    }
 }
 
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: stretch;
+
+    .flexcarousel {
+        flex-grow: 1;
+        width: 100%;
+        height: 380px;
+
+    }
+
+    .textflex {
+        flex-grow: 1;
+    }
+}
 
 @media all and (max-width: 1900px) {
     .main {
@@ -123,7 +149,7 @@ h2 {
 
         padding: 15px 19px;
 
-        line-height: 30px;
+        line-height: 27px;
     }
 
 }
@@ -137,7 +163,7 @@ h2 {
         margin: 0px;
         padding: 15px 19px;
 
-        line-height: 30px;
+        line-height: 25px;
     }
 }
 
@@ -151,16 +177,28 @@ h2 {
 
         padding: 15px 19px;
 
-        line-height: 30px;
+        line-height: 25px;
     }
 }
 
-
+@media all and (max-width: 1000px) {
+    .flexcarousel {
+        display: none;
+    }
+}
 
 
 @media all and (max-width: 630px) {
     .gif {
         width: 400px;
+    }
+
+    .leftflex {
+        background-repeat: repeat;
+    }
+
+    .rightflex {
+        background-repeat: repeat;
     }
 }
 
@@ -168,6 +206,15 @@ h2 {
     .gif {
         width: 300px;
     }
+
+    .leftflex {
+        background-repeat: repeat;
+    }
+
+    .rightflex {
+        background-repeat: repeat;
+    }
+
     .headermain {
 
         background-color: rgba(0, 0, 0, 0.904);
@@ -175,19 +222,20 @@ h2 {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-    
+
         ul {
             margin: 0px;
             padding: 5px;
-    
+
             li {
                 padding: 5px;
                 margin: 0px;
-    
+
                 &:hover {
                     color: blue;
                     transition: 1.2s;
                 }
             }
         }
-    }}
+    }
+}
